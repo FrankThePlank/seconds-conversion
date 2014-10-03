@@ -1,0 +1,13 @@
+public class SecondsConversion {
+    
+    public static void main(String[] args) {
+    	
+    	int ttlSecs = 5000;
+		int hours = ttlSecs / 3600;
+		int minutes = hours % 60;
+		int seconds = minutes % 60;
+		System.out.println(hours);
+		System.out.println(minutes);
+		System.out.println(seconds);
+    }
+}
